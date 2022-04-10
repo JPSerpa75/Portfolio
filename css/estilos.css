@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(229, 237, 243);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#header{
+    background-image: url("../img/fundo5.png");
+    padding: 2em;
+    color: white;
+}
+    #header h1{
+        margin-left: 2.5em;
+    }
+
+    #header #logo{
+        float: right;
+        font-family: cursive;
+        background-color: white;
+        color: rgb(28, 44, 68);
+        padding: 0.5em;
+        margin: -1em;
+        border-radius: 5%;
+        text-align: center;
+    }
+
+        #jp{
+            border-top: 0.1em solid rgb(28, 44, 68);
+        }
+
+
+#menu{
+    padding: 0.7em;
+    text-align: center;
+    border-bottom: 1px solid rgb(218, 222, 230);
+}
+    #menu a{
+        text-decoration: none;
+        margin: 0.5em 1em;
+        color: rgb(28, 44, 68);
+        padding: 0.2em;
+        font-size: 14pt;
+    }
+    #menu a:hover{
+        color: rgb(74, 116, 180);
+        border-bottom: 0.1em solid rgb(74, 116, 180);
+        transition: 0.1s;
+    }
+
+
+#about{
+    margin: 1em;
+    padding: 2em;
+    display: flex;
+}
+    #about img{
+        width: 25%;
+        height: 35%;
+        margin: 1em;
+        border-radius: 3%;
+        box-shadow: 1em 1em rgb(129, 179, 228);
+    }
+    
+    #about #sobre{
+        margin: 1em 2em;
+        padding: 2em;
+        border: 0.1em solid rgb(28, 44, 68);
+        color: rgb(28, 44, 68);
+        border-radius: 0.5em;
+    }
+
+#skills{
+    padding: 2em;
+    text-align: center;
+    color: rgb(28, 44, 68);
+    background-color: rgb(218, 234, 250);
+    margin: 2em 4em;
+    border-radius: 1em;
+}
+    .content{
+        padding: 2em;
+        display: flex;
+        justify-content: center;
+    }
+    #skills img{
+        width: 8em;
+        margin: 2em;
+        padding: 2em 4em;
+        border: 0.1em solid;
+        background-color: rgb(28, 44, 68);
+        border-radius: 1em;
+    }
+
+#projetos{
+    padding: 2em;
+    margin: 2em;
+}
+    #trabalhos{
+        display: flex;
+        padding: 2em;
+        margin: 2em;
+        justify-content: space-between;
+    }
+        #trabalhos .works{
+            padding: 2em;
+            margin: 1em;
+            box-shadow: 0.1em 0.1em 0.2em rgb(28, 44, 68);
+            width: 30em;
+            border-radius: 0.5em;
+        }
+            .works p{
+                margin-bottom: 1em;
+                height: 3em;
+            }
+            .works a{
+                padding: 0.3em;
+                margin: 1em;
+                text-decoration: none;
+                background-color: rgb(28, 44, 68);
+                color: rgb(218, 234, 250);
+                border-radius: 0.5em;
+                border: 0.1em solid rgb(28, 44, 68);
+            }
+            .works a:hover{
+                background-color: rgb(218, 234, 250);
+                color: rgb(28, 44, 68);
+                transition: 0.2s;
+            }
+                .works .bot{
+                    margin-top: 2.5em;
+                    margin-bottom: -1em;
+                }
+                
+#contatos{
+    padding: 2em;
+    margin: 2em;
+    color: rgb(28, 44, 68);
+    justify-content: space-around;
+}
+    #contatos h2{
+        display: block;
+    }
+    #contatos img{
+        width: 3em;
+        float: left;
+        margin: 2em 2em 2em 0;
+    }
+    #contatos .conts{
+        padding: 2em;
+        width: 30em;
+        border-bottom: 0.01px solid rgb(129, 179, 228);
+        margin: 2em;
+    }
+        .conts:hover{
+            box-shadow: 0.1em 0.1em 0.2em rgb(28, 44, 68);
+            background-color: rgb(214, 228, 240);
+            transition: 0.2s;
+        }
+    #contatos p{
+        margin: 3em 3em 0 3em;
+    }
+        .contact{
+        display: flex;
+        }
+        .contact a{
+            text-decoration: none;
+            color:rgb(28, 44, 68);
+        }
+
+
+#footer{
+    padding: 2em;
+    text-align: center;
+    color: white;
+    background-image: url("../img/fundo6.png");
+}
+
